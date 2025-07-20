@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background: rgb(0, 0, 0);
+    background: #0A192F;
     color: aliceblue;
 }
 
@@ -76,14 +76,14 @@ nav ul li a:hover ::after {
 }
 
 .header-text h1 span {
-    color: #00FF00;
+    color: #8892B0;
     text-shadow: 2px black;
 }
 
 /* --------------about------------ */
 #about {
     padding: 80px 0;
-    color: #ababab;
+    color: #a09b9b;
 }
 
 .row {
@@ -128,7 +128,7 @@ nav ul li a:hover ::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #00FF00;
+    background: #FFFFFF;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -146,7 +146,7 @@ nav ul li a:hover ::after {
 }
 
 .tab-contents ul li span {
-    color: #38b41a;
+    color: #8892B0;
     font-size: 14px;
 }
 
@@ -201,7 +201,7 @@ nav ul li a:hover ::after {
 }
 
 .services-list div:hover {
-    background: #00FF00;
+    background: #8892B0;
     transform: translateY(-10px);
 }
 
@@ -234,7 +234,7 @@ nav ul li a:hover ::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #00FF00);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #000000);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -257,7 +257,7 @@ nav ul li a:hover ::after {
 
 .layer a {
     margin-top: 20px;
-    color: #00FF00;
+    color: #0f100f;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -280,7 +280,7 @@ nav ul li a:hover ::after {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #00FF00;
+    border: 1px solid #fafafa;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -288,7 +288,7 @@ nav ul li a:hover ::after {
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #00FF00;
+    background: #828982;
 }
 
 /* --------------contact---------- */
@@ -303,7 +303,7 @@ nav ul li a:hover ::after {
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #00FF00;
+    color: #fcfcfc;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -319,12 +319,12 @@ nav ul li a:hover ::after {
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-   color: #00FF00;
+   color: #fbfffb;
    transform: translateY(-5px); 
 }
 .btn.btn2{
     display: inline-block;
-    background: #00FF00;
+    background: #6d706d;
 }
 .contact-right form{
     width: 100%;
@@ -356,7 +356,7 @@ form .btn2{
     margin-top: 20px;
 }
 .copyright i{
-    color: #00FF00;
+    color: #f7f8f7;
 }
 
 /* ------------------css for small screens------------ */
@@ -457,15 +457,21 @@ nav ul li a::after {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #00FF00; /* Màu gạch chân */
+    background-color: #ffffff; /* Màu gạch chân */
     transition: width 0.3s ease; /* Tạo hiệu ứng mở rộng gạch chân */
 }
 
 nav ul li a:hover {
-    color: #00FF00; /* Màu chữ thay đổi khi di chuột */
+    color: #6d706d; /* Màu chữ thay đổi khi di chuột */
     transform: scale(1.1); /* Phóng to chữ khi di chuột */
 }
 
 nav ul li a:hover::after {
     width: 100%; /* Gạch chân mở rộng toàn bộ khi hover */
+}
+#typed-text {
+    display: inline;
+    white-space: normal;         /* Cho phép xuống dòng */
+    overflow-wrap: break-word;   /* Ngắt từ dài đúng cách */
+    word-break: break-word;      /* Cắt từ nếu quá dài */
 }
